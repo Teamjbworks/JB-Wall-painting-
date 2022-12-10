@@ -238,9 +238,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#54d0dd', end
 #about img {
 	float: right;
 }
-#about p {
+#about p ,#txt{
 	margin-bottom: 30px;
 	line-height: 21px;
+        Color:white;
+        font-size:12px;
 }
 /* Portfolio Section */
 #portfolio {
