@@ -105,18 +105,18 @@ hr {
 #menu {
 	padding: 20px;
 	transition: all 0.8s;
-	background: black;
+	background: transparent;
 }
 #menu.navbar-default {
-	background-color: black;
-	border-color: black;
+	background-color: transparent;
+	border-color: transparent;
 }
 #menu a.navbar-brand {
 	font-size: 20px;
 	color: rgba(255,255,255,0.7);
 	font-weight: 500;
-	text-transform: uppercase;
-	letter-spacing: 1px;
+	font-family: 'Poppins', sans-serif;
+	
 }
 #menu a.navbar-brand i.fa {
 	font-size: 18px;
@@ -148,7 +148,7 @@ hr {
 }
 .navbar-default .navbar-toggle:hover, .navbar-default {
 	
-background: deepskyblue;
+background: transparent;
 color: white;
 }
 .navbar-default .navbar-toggle:hover>.icon-bar {
@@ -195,7 +195,7 @@ color: white;
 	width: 100%;
 	padding: 0;
 	text-align: center;
-	background-color: #000;
+	background:linear-gradient(rgba(0,0,0,0.5), #000),url("image-13-min.jpeg");
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
