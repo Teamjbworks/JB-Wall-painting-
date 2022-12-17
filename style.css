@@ -152,7 +152,7 @@ background: transparent;
 color: white;
 }
 .navbar-default .navbar-toggle:hover>.icon-bar {
-	background-color: black;
+	background-color: transparent;
 }
 .section-title {
 	padding-bottom: 50px;
